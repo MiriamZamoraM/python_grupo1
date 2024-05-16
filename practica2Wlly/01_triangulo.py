@@ -13,3 +13,5 @@ while i <= numero:
 print("EJEMPLO 2 CON FOR")
 for numero in range(1,numero+1):    
     print(numero*"*")
+    
+    
