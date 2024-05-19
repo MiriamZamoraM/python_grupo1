@@ -1,8 +1,16 @@
 # EJERCICIO NUMERO 5
-print ("**************************************** ")
+"""5. Escribe un programa que tome una calificación numérica de un
+estudiante (entre 0 y 100) y le asigne una letra según la siguiente tabla:
+- 90-100: A
+- 80-89: B
+- 70-79: C
+- 60-69: D
+- Menos de 60: F"""
+
 print("EJERCICIO NUMERO 5 \n")
 print("Calificacion numerica A,B,C,D,F \n")
 nota = int(input("ingrese nota: "))
+
 if nota <= 100 and nota >=90 :
     print("calificacion es 'A' \n")
 elif nota < 90 and nota >=80 :

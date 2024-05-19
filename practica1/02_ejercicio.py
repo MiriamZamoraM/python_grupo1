@@ -1,8 +1,13 @@
 # EJERCICIO NUMERO 2
-print ("****************************************")
+"""2. Escribe un programa que solicite al usuario un número entero y calcule
+su cuadrado y su cubo."""
+
 print("EJERCICIO NUMERO 2")
+
 print("cuadrado y cubo de un numero \n")
+
 numero1= int(input("ingrese numero entero: " ))
+
 cuadrado1=numero1**2
 cuadrado2=pow(numero1,2)
 cubo1 =numero1**3

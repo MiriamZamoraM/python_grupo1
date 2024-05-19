@@ -1,8 +1,10 @@
 # EJERCICIO NUMERO 4
-print ("****************************************")
-print("EJERCICIO NUMERO 4")
+"""4. Escribe un programa que solicite al usuario un número entero y calcule
+si es divisible por 3 y por 5."""
+
 print("el numero es divisible por 3 y 5 \n")
 numero3=int(input("ingrese numero: "))
+
 if numero3 % 3 ==0 and numero3 % 5==0:
     print("el numero ",numero3," es divisible por 3 y 5")
 else :

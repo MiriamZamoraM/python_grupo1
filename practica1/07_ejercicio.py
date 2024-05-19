@@ -1,5 +1,7 @@
 # EJERCICIO NUMERO 7
-print("EJERCICIO NUMERO 7")
+"""7. Escribe un programa que solicite al usuario un número entero y
+determine si es par o impar."""
+
 print(" el numero es par o impar \n")
 numero7 =int (input("ingrese el numero: "))
 if numero7 % 2 == 0 :

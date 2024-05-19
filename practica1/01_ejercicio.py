@@ -1,4 +1,7 @@
 # EJERCICIO NUMERO 1
+"""1. Escribe un programa que solicite al usuario dos números y muestre su
+suma, resta, multiplicación, división, división entera y residuo (módulo)."""
+
 print("EJERCICIO NUMERO 1")
 print("Operaciones aritmeticas: suma, resta, multipliacion, divicion \n")
 a= int(input("ingrese primer numero: " ))
