@@ -1,8 +1,7 @@
-# Solicitar al usuario un número entero
-numero = int(input("Ingresa un número entero: "))
+n1 = int(input("Ingresa un número para la tabla de multiplicar: "))
 
-# Determinar si el número es par o impar
-if numero % 2 == 0:
-    print(f"El número {numero} es par.")
+if n1 < 0:
+    for i in range(1, 10):
+        print(i, "x", n1, "=", i*n1)
 else:
-     print(f"El número {numero} es impar.")
+    print("El numero debe ser mayor a 0")
