@@ -1,3 +1,4 @@
+# [[Xiomar]]
 """Solicitar al usuario el nombre"""
 nombre = input("Introduce tu nombre: ").strip().capitalize()
 

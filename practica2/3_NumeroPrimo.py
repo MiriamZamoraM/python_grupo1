@@ -1,3 +1,4 @@
+# [[Willy]]
 """3. Escribir un programa que pida al usuario un número entero positivo
 mayor que 2 y muestre por pantalla si es un número primo o no."""
 def es_primo(num):

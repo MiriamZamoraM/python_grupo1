@@ -1,3 +1,5 @@
+# [[Xiomar]]
+
 """Solicitar al usuario la cantidad a invertir"""
 cantidad_invertir = float(input("Introduce la cantidad a invertir: "))
 
