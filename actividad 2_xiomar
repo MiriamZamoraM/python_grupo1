@@ -1,0 +1,14 @@
+"""Solicitar al usuario el nombre"""
+nombre = input("Introduce tu nombre: ").strip().capitalize()
+
+"""Solicitar al usuario el sexo"""
+sexo = input("Introduce tu sexo (M para mujer, H para hombre): ").strip().upper()
+
+"""Determinar el grupo al que pertenece el usuario"""
+if (sexo == 'M' and nombre < 'M') or (sexo == 'H' and nombre > 'N'):
+    grupo = 'A'
+else:
+    grupo = 'B'
+
+"""Mostrar el grupo correspondiente"""
+print(f"Te corresponde el grupo {grupo}.")
