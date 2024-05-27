@@ -8,3 +8,5 @@ elif age <= 18 and age >= 4:
     print("El precio de la entrada es de 5€")
 else:
     print("El precio de la entrada es de 10€")
+
+# [[Miriam]]
